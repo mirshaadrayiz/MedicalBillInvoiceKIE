@@ -1,0 +1,8 @@
+paddleocr==2.7.0.3
+opencv-python
+Pillow==10.0.1
+scikit-image==0.22.0
+numpy
+PyMuPDF==1.20.2
+jdeskew==0.2.2
+pypdfium2
