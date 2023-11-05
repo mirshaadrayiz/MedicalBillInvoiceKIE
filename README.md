@@ -12,6 +12,15 @@ json_file_name = "medical_bills_new.json"
 
 Run main.py
 
+**IMPORTANT**: The code will not run without installing Poppler. To install and set Poppler's path, follow these steps:
+
+1. Download the latest release of Poppler from [this link](https://github.com/oschwartz10612/poppler-windows/releases).
+
+2. Extract the contents of the archive and locate the 'bin' folder within it.
+
+3. Add the bin folder path to the PATH variable in your system's environmental variables. The exact path may look something like this: \Release-23.11.0-0\poppler-23.11.0\Library\bin.
+
+
 ### ASSUMPTIONS
 All tables will have a column labeled "Description," regardless of its case format. <br>
 All text in the table rows will be left aligned while all numbers will be right aligned <br>
